@@ -1,0 +1,60 @@
+$primary: #ed5b2d;
+$secondary: #ffce6d;
+$background_color: #f7f7f7;
+$header-jumbotron-height: 250px;
+
+@import "E:\\Schule\\Internet\\Praxisprojekt\\bootstrap\\scss\\bootstrap.scss";
+
+.header-img {
+    height: 100px;
+}
+
+/*
+@include media-breakpoiint-up(sm) {
+    height:$header-jumbotron-height + 50px;
+}
+
+@include media-breakpoiint-up(md) {
+    height:$header-jumbotron-height + 100px
+}
+
+@include media-breakpoiint-up(lg) {
+    height:$header-jumbotron-height + 150px;
+}
+*/
+
+.page-header {
+    background-image: url("Bilder/images/header_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+
+.profil-pic {
+    height: 150px;
+}
+
+.experience {
+    background-color: $background_color;
+}
+
+.icon {
+    border: 3px solid $primary;
+    font-size: 2rem;
+
+    padding-top: 0.25rem;
+    color: $primary;
+    text-align: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0px auto 0.75rem auto;
+}
+
+.contact {
+    background-color: $background_color;
+}
+
+.page-footer {
+    background-color: $background_color;
+}
